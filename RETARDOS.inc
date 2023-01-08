@@ -12,6 +12,7 @@
 
 ;UNIVERSIDAD NACIONAL DE PIURA, PERÚ
 
+;El codigo creado,esta diseñado para crear retardos en intervalos de tiempo ya establecidos.
 
 PSECT udata_acs
 Contador1: DS 1		;se reserva 1 byte en acces ram
