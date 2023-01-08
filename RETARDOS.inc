@@ -1,3 +1,18 @@
+# unp
+
+;**Curso:** Microcontroladores I
+
+;**Autor:** Danilo Josemaria Avila Avila
+
+;Tarjeta: Curiosity Nano PIC18f57q84
+
+;Entorno: MPLAB X IDE
+
+;Lenguaje: AMS - C
+
+;UNIVERSIDAD NACIONAL DE PIURA, PERÚ
+
+
 PSECT udata_acs
 Contador1: DS 1		;se reserva 1 byte en acces ram
 Contador2: DS 1         ; se reserva 1 byte en acces ram
@@ -78,7 +93,7 @@ Delay_Loop7:
     RETURN		    ; 2 Tcy, salta a return cuando es cero
 
 ;Inicia los retardos en milisengundos
-;Implementamos los milisegundos con bucles a�idados(5ms,10ms,25ms,50ms,100ms,200ms,250ms)
+;Implementamos los milisegundos con bucles añidados(5ms,10ms,25ms,50ms,100ms,200ms,250ms)
     
 Delay_1ms: ; (6+4k)
     ; 2 Tcy por el call
